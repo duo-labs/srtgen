@@ -1,0 +1,21 @@
+
+Creative Commons Attribution-NoDerivs 3.0
+
+This license applies to the Original Soundtrack files of Tears of Steel.
+
+You are free:
+- to copy, distribute and display the work
+- to make commercial use of the work
+
+Under the following conditions:
+
+You must attribute the work as:
+
+   (C) Joram Letwory - www.tearsofsteel.org
+
+For any reuse or distribution, you must make clear to others the license terms of this work.
+
+More information you can find here:
+http://creativecommons.org/licenses/by-nd/3.0/
+
+For questions about licensing rights of "Tears of Steel" content you can also email foundation@blender.org.

@@ -1,0 +1,3 @@
+[srtGen]
+API_URL = <YOUR_API_URL_HERE>
+FFMPEG_BIN_PATH = ffmpeg

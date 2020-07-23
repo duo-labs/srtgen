@@ -1,0 +1,56 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": "arn:aws:logs:*:*:*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetLifecycleConfiguration",
+                "s3:CreateBucket",
+                "iam:CreateRole",
+                "s3:ListBucket",
+                "iam:PutRolePolicy",
+                "s3:GetBucketPolicy",
+                "apigateway:DELETE",
+                "s3:GetObjectAcl",
+                "iam:PassRole",
+                "iam:DeleteRolePolicy",
+                "transcribe:StartTranscriptionJob",
+                "apigateway:PATCH",
+                "s3:PutLifecycleConfiguration",
+                "s3:PutBucketAcl",
+                "apigateway:GET",
+                "s3:DeleteBucket",
+                "iam:GetRole",
+                "apigateway:PUT",
+                "iam:ListRoles",
+                "s3:GetBucketAcl",
+                "s3:DeleteBucketPolicy",
+                "s3:ListMultipartUploadParts",
+                "s3:PutObject",
+                "s3:GetObject",
+                "transcribe:GetTranscriptionJob",
+                "s3:ListAllMyBuckets",
+                "lambda:*",
+                "s3:PutBucketPolicy",
+                "apigateway:POST"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor2",
+            "Effect": "Allow",
+            "Action": "logs:CreateLogGroup",
+            "Resource": "arn:aws:logs:*:*:*"
+        }
+    ]
+}

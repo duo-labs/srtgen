@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "app_name": "srtGen",
+  "stages": {
+    "dev": {
+      "autogen_policy": false,
+      "api_gateway_stage": "api"
+    },
+    "prod": {
+      "autogen_policy": false,
+      "api_gateway_stage": "api"
+    }
+  },
+  "profile": "autosubgen"
+}
